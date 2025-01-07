@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp} from "react-icons/fa";
 import { Container,  Copy,  Item} from "./styles";
 import LogoImg from "../../assets/react.svg"
 
-const Footer = () => {
+const Footer = ({title, span1, span2, span3}) => {
   return(
     <Fragment>
       <Container>
@@ -17,7 +17,7 @@ const Footer = () => {
           </nav>
         </Item>
         <Item>
-          <h3>Nossos Serviços</h3>
+          <h3></h3>
           <ul>
             <li><span>Comprar</span></li>
             <li><span>Alugar</span></li>
